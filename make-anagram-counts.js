@@ -106,6 +106,6 @@ function sortWordCountAnagramLengthAnagramAlphabetically(a, b){
 }
 
 // Now sort it to make the highest counts appear first
-anagramArray.sort(sortAnagramAlphabetically);
+anagramArray.sort(sortWordCountAnagramLengthAnagramAlphabetically);
 
 fs.writeFile('anagram-counts.json', JSON.stringify(anagramArray, null, '\t'));
